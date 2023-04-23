@@ -24,7 +24,7 @@ class ContatoController
   {
     $id = $args["id"];
 
-    if(!is_int($id))
+    if(!is_numeric($id))
       return $response->withStatus(400);
     
     $cod_usuario = $request->getAttribute('codigo_usuario');

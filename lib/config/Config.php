@@ -7,7 +7,7 @@ class Config
   {
     return [
         "dev" => true,
-        "base-dir" => "http:\\\\localhost:3000",
+        "base-dir" => "http://localhost:3000",
         'JWT' => [
           'iss' => 'localhost',
           'aud' => 'localhost',
